@@ -1,0 +1,20 @@
+.color {
+    background: #f7e0e7;
+
+
+}
+.color2{
+	background: #F0E3E3
+}
+.especial  {
+  font-weight: normal;
+  font-style: italic;
+  background-color: #f7f6f6;
+  padding: 2px;
+}
+
+.texto {
+  background: linear-gradient(yellow,white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
