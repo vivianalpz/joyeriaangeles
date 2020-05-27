@@ -1,0 +1,112 @@
+<style>
+
+      *{
+         margin: 0;
+         padding: 0;
+
+      }
+
+      #header{
+        /*background-color: #F9F8FC;*/
+        width: 1000px
+        height: 200px;
+        /*background: url(../images/brillo.png);*/
+        /*background:  url(../images/brillo.png) center / cover;*/
+      }
+
+
+    #header {
+    background:  url(../images/i2.jpg) center / cover;
+    }
+
+    @media (max-width: 1024px) { header { background: black url(../images/i2.jpg) center / cover; } }
+    @media (max-width:  768px) { header { background: black url(../images/i2.jpg) center / cover; } }
+
+/* responsive */
+    /*@media (max-width: 768px) {
+        :root {
+            font-size: 90%;
+            }
+    }*/
+
+
+
+
+
+
+      #logo{
+        margin: auto;
+        height: 250px;
+        width: 320px;
+        text-align: center;
+      }
+
+      #logo h1{
+         font-family: 'Pacifico', cursive;
+         font-size: 40px;
+
+       }
+
+     #nav{
+       height: 62px;
+       background-color:#000000;
+       text-align: center;
+     }
+
+     #nav ul{
+        list-style: none;
+        display: inline-block;
+     }
+
+     #nav ul li{
+         float: left;
+         margin-top: 20px;
+     }
+
+     #nav ul li a {
+         color: white;
+         font-weight: bold;
+         text-decoration: none;
+         font-size: 20px;
+         padding: 20px;
+     }
+
+     #nav ul li a:hover{
+       background-color: #929fb3;
+     }
+
+
+
+
+
+     @media (max-width: 768px) {
+    
+    #logo{
+        height: auto;
+        border-bottom: 0px;
+        display: block;
+    }
+    
+    #logo h1{
+        height: 30px;
+        border-bottom: 1px solid #29487d;
+        color: white;
+      
+    }
+
+    #nav ul li a {
+        color: pink;
+      
+    } 
+
+}
+
+
+
+
+
+   </style>
+
+
+
+
