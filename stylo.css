@@ -16,11 +16,11 @@
 
 
     #header {
-    background:  url(../images/i2.jpg) center / cover;
+    background:  url(../images/i3.jpeg) center / cover;
     }
 
-    @media (max-width: 1024px) { header { background: black url(../images/i2.jpg) center / cover; } }
-    @media (max-width:  768px) { header { background: black url(../images/i2.jpg) center / cover; } }
+    @media (max-width: 1024px) { header { background: black url(../images/i3.jpeg) center / cover; } }
+    @media (max-width:  768px) { header { background: black url(../images/i3.jpeg) center / cover; } }
 
 /* responsive */
     /*@media (max-width: 768px) {
@@ -79,7 +79,7 @@
 
 
 
-     @media (max-width: 768px) {
+     @media (max-width: 250px) {
     
     #logo{
         height: auto;

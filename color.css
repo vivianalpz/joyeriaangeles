@@ -41,15 +41,6 @@ h4 {
 
 
 
-.body {
-    background: black url(../images/brillo.png) center / cover;
-}
-
-@media (max-width: 1024px) { body { background: black url(../images/brillo.png) center / cover; } }
-@media (max-width:  768px) { body { background: black url(../images/brillo.png) center / cover; } } 
-
-
-
 
 
 nav {
@@ -62,13 +53,9 @@ nav {
   border-radius: 8px;
   font-size: 0;
 }
-/*
-.nav {
-    background: black url(../images/brillo.png) center / cover;
-}
 
 @media (max-width: 1024px) { nav { background: black url(../images/brillo.png) center / cover; } }
-@media (max-width:  768px) { nav { background: black url(../images/brillo.png) center / cover; } } */
+@media (max-width:  768px) { nav { background: black url(../images/brillo.png) center / cover; } } 
 
 nav a {
   line-height: 50px;
@@ -135,24 +122,9 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 body {
   font-size: 12px;
   font-family: sans-serif;
-  background: #2c3e50;
-  /*background: black url(../images/i2.jng) center / cover;*/
+  
+  background: #ddc0c4;
 }
-
-
-
-body {
-    background: black url(../images/i2.jpg) center / cover;
-}
-
-@media (max-width: 1024px) { body { background: black url(../images/i2.jpg) center / cover; } }
-@media (max-width:  768px) { body { background: black url(../images/i2.jpg center / cover; } } 
-
-
-
-
-
-
 h1 {
   text-align: center;
   margin: 40px 0 40px;
@@ -167,102 +139,27 @@ p {
     position: absolute;
     bottom: 20px;
     width: 100%;
-    text-align: center;
-    color: #ecf0f1;
+    text-align: left;
+    color: #f8f9fa;
     font-family: 'Cherry Swash',cursive;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 span {
     color: #2BD6B4;
 }
-
-/* responsive */
-@media (max-width: 768px) {
-    :root {
-        font-size: 90%;
-    }
+footer {
+	background-color:#ddc0c4;
+	height: 50%;
+  color: black;
+  padding: 15px;
 }
 
-/*
-
-@media (max-width: 768px) {
-
-  body {
-    background-color: lightblue;
-  }
-    
-    h1{
-        height: auto;
-        border-bottom: 0px;
-        display: block;
-    }
-    
-    {
-        height: 45px;
-        border-bottom: 1px solid #29487d;
-    }
-
-}*/
-
-
-
-
-
-
-/*
-
-.menu-main{
-    display: flex;
-    justify-content: space-between;
-    background: #f39fb9;
-    border-bottom: 1px solid #29487d;
-    height: 45px;
+.main1 { 
+  display:flex;
+  margin:0 auto;
 }
 
-.menu-main a{
-    flex: 1;
-    font-family: arial;
-    display: flex;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;    
-    justify-content: center;
-    align-items: center;
+a img:hover {
+    color: #fff;
 }
-/*
-.menu-main a:hover{
-    background: rgba(0,0,0, .1);
-}*/
-
-/*.menu-main a.active{
-    background-color: #29487d;
-}*/
-
-/*
-
-@media (max-width: 768px) {
-    
-    .menu-main{
-        height: auto;
-        border-bottom: 0px;
-        display: block;
-    }
-    
-    .menu-main a{
-        height: 45px;
-        border-bottom: 1px solid #29487d;
-    }
-
-}*/
-
-
-
-
-
-
-
-
-
-
